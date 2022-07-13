@@ -5,7 +5,7 @@ export const itemsList = [
     img: "lamp1.jpg",
     desc: "Stylish lamp that will suit any interior.",
     category: "lamps",
-    price: "20.00",
+    price: "20.90",
   },
   {
     id: 2,
@@ -13,7 +13,7 @@ export const itemsList = [
     img: "aroma-candle1.jpg",
     desc: "Candles create atmospheric light and are a beautiful decorative element.",
     category: "aroma",
-    price: "5.00",
+    price: "5.50",
   },
   {
     id: 3,
@@ -21,7 +21,7 @@ export const itemsList = [
     img: "sofa1.jpg",
     desc: "Seat cushions filled with highly resilient polyurethane foam and polyester fiber wadding provide exceptional comfort.",
     category: "sofas",
-    price: "600.00",
+    price: "599.99",
   },
   {
     id: 4,
@@ -29,7 +29,7 @@ export const itemsList = [
     img: "chair1.jpg",
     desc: "A small and tidy chair that looks just as good in the living room as it does in the bedroom or hallway - even if space is tight.",
     category: "chairs",
-    price: "55.00",
+    price: "55.70",
   },
   {
     id: 5,
@@ -37,7 +37,7 @@ export const itemsList = [
     img: "vase1.jpg",
     desc: "The vase is unique, because it is made of craft by master craftsmen.",
     category: "vases",
-    price: "10.00",
+    price: "10.60",
   },
   {
     id: 6,
@@ -45,7 +45,7 @@ export const itemsList = [
     img: "table1.jpg",
     desc: "Stylish table suitable for any interior.",
     category: "tables",
-    price: "150.00",
+    price: "150.50",
   },
   {
     id: 7,
@@ -53,7 +53,7 @@ export const itemsList = [
     img: "chair2.jpg",
     desc: "A middle chair that looks just as good in the living room as it does in the bedroom or hallway - even if space is tight.",
     category: "chairs",
-    price: "70.00",
+    price: "70.98",
   },
   {
     id: 8,
@@ -61,7 +61,7 @@ export const itemsList = [
     img: "aroma-diffuser1.jpg",
     desc: "An elegant glass bottle filled with a special perfumed liquid.",
     category: "aroma",
-    price: "15.00",
+    price: "15.70",
   },
   {
     id: 9,
@@ -69,7 +69,7 @@ export const itemsList = [
     img: "lamp2.jpg",
     desc: "Stylish lamp that will suit any interior.",
     category: "lamps",
-    price: "100.00",
+    price: "100.80",
   },
   {
     id: 10,
@@ -77,7 +77,7 @@ export const itemsList = [
     img: "wardrobe1.jpg",
     desc: "A functional and spacious wardrobe will suit any interior.",
     category: "warderobes",
-    price: "400.00",
+    price: "399.99",
   },
   {
     id: 11,
@@ -85,7 +85,7 @@ export const itemsList = [
     img: "chair3.jpg",
     desc: "A small and tidy chair that looks just as good in the living room as it does in the bedroom or hallway - even if space is tight.",
     category: "chairs",
-    price: "60.00",
+    price: "60.89",
   },
   {
     id: 12,
