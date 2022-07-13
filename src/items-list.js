@@ -1,3 +1,14 @@
+export const categoriesList = [
+  { key: "all", name: "All" },
+  { key: "lamps", name: "Lamps" },
+  { key: "aroma", name: "Aroma staff" },
+  { key: "sofas", name: "Sofas" },
+  { key: "chairs", name: "Chairs" },
+  { key: "tables", name: "Tables" },
+  { key: "vases", name: "Vases" },
+  { key: "warderobes", name: "Warderobes" },
+];
+
 export const itemsList = [
   {
     id: 1,
