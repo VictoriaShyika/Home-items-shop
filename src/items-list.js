@@ -5,7 +5,7 @@ export const itemsList = [
     img: "lamp1.jpg",
     desc: "Stylish lamp that will suit any interior.",
     category: "lamps",
-    price: "20.90",
+    price: "29.90",
   },
   {
     id: 2,
@@ -37,7 +37,7 @@ export const itemsList = [
     img: "vase1.jpg",
     desc: "The vase is unique, because it is made of craft by master craftsmen.",
     category: "vases",
-    price: "10.60",
+    price: "16.60",
   },
   {
     id: 6,
@@ -45,7 +45,7 @@ export const itemsList = [
     img: "table1.jpg",
     desc: "Stylish table suitable for any interior.",
     category: "tables",
-    price: "150.50",
+    price: "155.50",
   },
   {
     id: 7,
@@ -53,7 +53,7 @@ export const itemsList = [
     img: "chair2.jpg",
     desc: "A middle chair that looks just as good in the living room as it does in the bedroom or hallway - even if space is tight.",
     category: "chairs",
-    price: "70.98",
+    price: "89.99",
   },
   {
     id: 8,
@@ -61,7 +61,7 @@ export const itemsList = [
     img: "aroma-diffuser1.jpg",
     desc: "An elegant glass bottle filled with a special perfumed liquid.",
     category: "aroma",
-    price: "15.70",
+    price: "15.99",
   },
   {
     id: 9,
@@ -69,7 +69,7 @@ export const itemsList = [
     img: "lamp2.jpg",
     desc: "Stylish lamp that will suit any interior.",
     category: "lamps",
-    price: "100.80",
+    price: "188.80",
   },
   {
     id: 10,
@@ -85,7 +85,7 @@ export const itemsList = [
     img: "chair3.jpg",
     desc: "A small and tidy chair that looks just as good in the living room as it does in the bedroom or hallway - even if space is tight.",
     category: "chairs",
-    price: "60.89",
+    price: "68.89",
   },
   {
     id: 12,
@@ -93,7 +93,7 @@ export const itemsList = [
     img: "vase2.jpg",
     desc: "The vase is unique, because it is made of blown glass by master craftsmen.",
     category: "vases",
-    price: "15.00",
+    price: "15.55",
   },
   {
     id: 13,
@@ -101,7 +101,7 @@ export const itemsList = [
     img: "table3.jpg",
     desc: "Stylish table suitable for any interior.",
     category: "tables",
-    price: "180.00",
+    price: "179.99",
   },
   {
     id: 14,
@@ -109,7 +109,7 @@ export const itemsList = [
     img: "sofa2.jpg",
     desc: "Seat cushions filled with highly resilient polyurethane foam and polyester fiber wadding provide exceptional comfort.",
     category: "sofas",
-    price: "500.00",
+    price: "550.00",
   },
   {
     id: 15,
@@ -117,7 +117,7 @@ export const itemsList = [
     img: "chair4.jpg",
     desc: "A small and tidy chair that looks just as good in the living room as it does in the bedroom or hallway - even if space is tight.",
     category: "chairs",
-    price: "60.00",
+    price: "68.50",
   },
   {
     id: 16,
@@ -125,7 +125,7 @@ export const itemsList = [
     img: "lamp3.jpg",
     desc: "Stylish lamp that will suit any interior.",
     category: "lamps",
-    price: "80.00",
+    price: "89.99",
   },
   {
     id: 17,
@@ -133,7 +133,7 @@ export const itemsList = [
     img: "chair5.jpg",
     desc: "A small and tidy chair that looks just as good in the living room as it does in the bedroom or hallway - even if space is tight.",
     category: "chairs",
-    price: "70.00",
+    price: "75.50",
   },
   {
     id: 18,
@@ -141,7 +141,7 @@ export const itemsList = [
     img: "aroma-diffuser2.jpg",
     desc: "An elegant glass bottle filled with a special perfumed liquid.",
     category: "aroma",
-    price: "15.00",
+    price: "15.80",
   },
   {
     id: 19,
@@ -149,7 +149,7 @@ export const itemsList = [
     img: "vase3.jpg",
     desc: "The vase is unique, because it is made of clay by masters of their craft.",
     category: "vases",
-    price: "20.00",
+    price: "28.80",
   },
   {
     id: 20,
@@ -157,7 +157,7 @@ export const itemsList = [
     img: "table4.jpg",
     desc: "Stylish table suitable for any interior.",
     category: "tables",
-    price: "200.00",
+    price: "205.50",
   },
   {
     id: 21,
@@ -165,7 +165,7 @@ export const itemsList = [
     img: "lamp4.jpg",
     desc: "Stylish lamp that will suit any interior.",
     category: "lamps",
-    price: "30.00",
+    price: "39.90",
   },
   {
     id: 22,
@@ -173,7 +173,7 @@ export const itemsList = [
     img: "chair6.jpg",
     desc: "A small and tidy armchair that looks just as good in the living room as it does in the bedroom or hallway - even if space is tight.",
     category: "chairs",
-    price: "90.00",
+    price: "99.99",
   },
   {
     id: 23,
@@ -181,7 +181,7 @@ export const itemsList = [
     img: "vase4.jpg",
     desc: "The vase is unique, because it is made of blown glass by master craftsmen.",
     category: "vases",
-    price: "15.00",
+    price: "15.50",
   },
   {
     id: 25,
@@ -189,7 +189,7 @@ export const itemsList = [
     img: "table5.jpg",
     desc: "Stylish table suitable for any interior.",
     category: "tables",
-    price: "180.00",
+    price: "189.99",
   },
   {
     id: 26,
@@ -197,7 +197,7 @@ export const itemsList = [
     img: "aroma-diffuser3.jpg",
     desc: "An elegant glass bottle filled with a special perfumed liquid.",
     category: "aroma",
-    price: "15.00",
+    price: "15.60",
   },
   {
     id: 27,
@@ -205,7 +205,7 @@ export const itemsList = [
     img: "chair7.jpg",
     desc: "A small and tidy chair that looks just as good in the living room as it does in the bedroom or hallway - even if space is tight.",
     category: "chairs",
-    price: "50.00",
+    price: "55.50",
   },
   {
     id: 28,
@@ -213,7 +213,7 @@ export const itemsList = [
     img: "lamp5.jpg",
     desc: "Stylish lamp that will suit any interior.",
     category: "lamps",
-    price: "100.00",
+    price: "119.90",
   },
   {
     id: 29,
@@ -221,7 +221,7 @@ export const itemsList = [
     img: "vase5.jpg",
     desc: "The vase is unique, because it is made of blown glass by master craftsmen.",
     category: "vases",
-    price: "20.00",
+    price: "21.50",
   },
   {
     id: 30,
@@ -229,7 +229,7 @@ export const itemsList = [
     img: "sofa3.jpg",
     desc: "Seat cushions filled with highly resilient polyurethane foam and polyester fiber wadding provide exceptional comfort.",
     category: "sofas",
-    price: "550.00",
+    price: "550.50",
   },
   {
     id: 31,
@@ -237,7 +237,7 @@ export const itemsList = [
     img: "table6.jpg",
     desc: "Stylish table suitable for any interior.",
     category: "tables",
-    price: "250.00",
+    price: "250.50",
   },
   {
     id: 32,
@@ -245,7 +245,7 @@ export const itemsList = [
     img: "chair8.jpg",
     desc: "A small and tidy chair that looks just as good in the living room as it does in the bedroom or hallway - even if space is tight.",
     category: "chairs",
-    price: "70.00",
+    price: "69.99",
   },
   {
     id: 33,
@@ -253,7 +253,7 @@ export const itemsList = [
     img: "aroma-diffuser4.jpg",
     desc: "An elegant glass bottle filled with a special perfumed liquid.",
     category: "aroma",
-    price: "15.00",
+    price: "15.90",
   },
   {
     id: 34,
@@ -261,7 +261,7 @@ export const itemsList = [
     img: "vase6.jpg",
     desc: "The vase is unique, because it is made of clay by masters of their craft.",
     category: "vases",
-    price: "17.00",
+    price: "17.90",
   },
   {
     id: 35,
@@ -269,7 +269,7 @@ export const itemsList = [
     img: "chair9.jpg",
     desc: "A small and tidy armchair that looks just as good in the living room as it does in the bedroom or hallway - even if space is tight.",
     category: "chairs",
-    price: "90.00",
+    price: "90.99",
   },
   {
     id: 36,
@@ -277,7 +277,7 @@ export const itemsList = [
     img: "lamp6.jpg",
     desc: "Stylish lamp that will suit any interior.",
     category: "lamps",
-    price: "80.00",
+    price: "80.80",
   },
   {
     id: 37,
@@ -293,7 +293,7 @@ export const itemsList = [
     img: "sofa8.jpg",
     desc: "Seat cushions filled with highly resilient polyurethane foam and polyester fiber wadding provide exceptional comfort.",
     category: "sofas",
-    price: "550.00",
+    price: "550.50",
   },
   {
     id: 39,
@@ -301,7 +301,7 @@ export const itemsList = [
     img: "aroma-candle2.jpg",
     desc: "Candles create atmospheric light and are a beautiful decorative element.",
     category: "aroma",
-    price: "8.00",
+    price: "8.50",
   },
   {
     id: 40,
@@ -309,7 +309,7 @@ export const itemsList = [
     img: "vase8.jpg",
     desc: "The vase is unique, because it is made of clay by masters of their craft.",
     category: "vases",
-    price: "17.00",
+    price: "17.99",
   },
   {
     id: 41,
@@ -317,7 +317,7 @@ export const itemsList = [
     img: "chair10.jpg",
     desc: "A small and tidy chair that looks just as good in the living room as it does in the bedroom or hallway - even if space is tight.",
     category: "chairs",
-    price: "70.00",
+    price: "69.90",
   },
   {
     id: 42,
@@ -325,7 +325,7 @@ export const itemsList = [
     img: "lamp7.jpg",
     desc: "Stylish lamp that will suit any interior.",
     category: "lamps",
-    price: "100.00",
+    price: "119.99",
   },
   {
     id: 43,
@@ -333,7 +333,7 @@ export const itemsList = [
     img: "table2.jpg",
     desc: "Stylish table suitable for any interior.",
     category: "sofas",
-    price: "120.00",
+    price: "120.50",
   },
   {
     id: 44,
