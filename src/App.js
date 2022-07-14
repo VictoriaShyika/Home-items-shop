@@ -9,7 +9,6 @@ import { itemsList } from "./items-list";
 
 function App() {
   const [orders, setOrders] = useState([]);
-
   const [addingNotif, setAddingNotif] = useState(false);
   const [currentItems, setCurrentItems] = useState(itemsList);
   const [showFullItem, setShowFullItem] = useState(false);
@@ -26,10 +25,8 @@ function App() {
     if (!isInArray) {
       setOrders([...orders, item]);
       setAddingNotif(true);
-      console.log(">>>>>>>Notif Added");
       setTimeout(() => {
         setAddingNotif(false);
-        console.log("<<<<<<<<<<<<Notif deleted");
       }, 5000);
     }
   };
