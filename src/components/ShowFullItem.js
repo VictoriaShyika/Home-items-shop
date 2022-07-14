@@ -1,13 +1,10 @@
-import React from "react";
-
 export default function ShowFullItem(props) {
   return (
-    <div className="full-item">
-      <div>
+    <div className="full-item" onClick={() => props.onCloseFullItem()}>
+      <div onClick={(e) => e.stopPropagation(e)}>
         <img
           src={"./img/" + props.item.img}
           alt={props.item.desc}
-          onClick={() => props.onShowItem(props.item)}
         />
         <h2>{props.item.title}</h2>
         <p>{props.item.desc}</p>

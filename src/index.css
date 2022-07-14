@@ -213,7 +213,8 @@ header .presentation::before {
   transition: all 500ms ease;
 }
 
-.categories div:hover {
+.categories div:hover,
+.categories .active{
   border-color: silver;
   transform: scale(1.1);
 }

@@ -45,7 +45,12 @@ function App() {
 
   const onShowItem = (item) => {
     setFullItem(item);
-    setShowFullItem(!showFullItem);
+    setShowFullItem(true);
+  };
+
+  const onCloseFullItem = () => {
+    setShowFullItem(false);
+    setFullItem(null);
   };
 
   return (
@@ -56,8 +61,8 @@ function App() {
       {showFullItem && (
         <ShowFullItem
           item={fullItem}
-          onShowItem={onShowItem}
           onAdd={addToOrders}
+          onCloseFullItem={onCloseFullItem}
         />
       )}
       {addingNotif && <Notif />}
