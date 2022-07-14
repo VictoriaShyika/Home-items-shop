@@ -3,11 +3,14 @@ import Categories from "./components/Categories";
 import Footer from "./components/Footer";
 import Header from "./components/Header";
 import Items from "./components/Items";
+import ShowFullItem from "./components/ShowFullItem";
 import { itemsList } from "./items-list";
 
 function App() {
   const [orders, setOrders] = useState([]);
   const [currentItems, setCurrentItems] = useState(itemsList);
+  const [showFullItem, setShowFullItem] = useState(false);
+  const [fullItem, setFullItem] = useState();
 
   const addToOrders = (item) => {
     let isInArray = false;
@@ -34,11 +37,17 @@ function App() {
     setCurrentItems(itemsList.filter((el) => el.category === category));
   };
 
+  const onShowItem = (item) => {
+    setFullItem(item)
+    setShowFullItem(!showFullItem);
+  };
+
   return (
     <div className="wrapper">
       <Header orders={orders} onDelete={onDelete} />
       <Categories chooseCategory={chooseCategory} />
-      <Items items={currentItems} onAdd={addToOrders} />
+      <Items onShowItem={onShowItem} items={currentItems} onAdd={addToOrders} />
+      {showFullItem && <ShowFullItem item={fullItem} onShowItem={onShowItem} onAdd={addToOrders} />}
       <Footer />
     </div>
   );
