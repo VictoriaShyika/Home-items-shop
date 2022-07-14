@@ -187,7 +187,7 @@ header .presentation::before {
   z-index: 9999;
   overflow: auto;
 }
-.full-item>div {
+.full-item > div {
   width: 450px;
   position: relative;
   margin: 2% auto;
@@ -263,13 +263,43 @@ main .add-to-cart:hover,
   transform: scale(1.5) translateY(-5px);
 }
 
+/* ADDED NOTIFICATION */
+
+.added-notif {
+  position: fixed;
+  bottom: 50px;
+  width: 30%;
+  left: 34%;
+  background: #5fa36ad0;
+  color: white;
+  border-radius: 50px;
+  padding: 10px 20px;
+  animation-duration: 5s;
+  animation-name: show;
+  text-align: center;
+}
+
+@keyframes show {
+  0% {
+    opacity: 0;
+  }
+  10% {
+    opacity: 1;
+  }
+  90% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
 /* FOOTER STYLES */
 
 footer {
   text-align: center;
   margin-top: 100px;
 }
-
 
 /* @media screen and (max-width: ) {
   
