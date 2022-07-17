@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;600&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;600&display=swap');
 
 * {
   margin: 0;
@@ -70,19 +70,17 @@ header .shop-cart {
 .shop-cart > div {
   position: absolute;
   top: 30px;
-  width: 550px;
+  width: 800px;
   left: 0;
   right: 0;
   margin-left: auto;
   margin-right: auto;
-  border-radius: 9px;
+  border-radius: 6px;
   background: #fafafa;
   -webkit-box-shadow: 4px 5px 15px -7px #606060;
   box-shadow: 4px 5px 15px -7px #606060;
   z-index: 10;
-  padding-bottom: 0;
-  justify-content: center;
-}
+  }
 
 /* Cart header */
 .cart-header {
@@ -91,11 +89,11 @@ header .shop-cart {
   padding-bottom: 5px;
   border-bottom: 1px solid rgb(197, 197, 197);
   padding: 15px 20px 10px;
-  font-weight: 600;
+  font-weight: 300;
   font-size: 20px;
 }
 .cart-close-button {
-  color: #ca5252;
+  color: rgb(153, 153, 153);;
   float: right;
   position: relative;
   cursor: pointer;
@@ -125,7 +123,7 @@ header .shop-cart .item {
 }
 
 header .shop-cart .item img {
-  width: 70px;
+  width: 85px;
   float: left;
   margin-right: 20px;
   margin-left: 20px;
@@ -136,31 +134,80 @@ header .shop-cart .item h2 {
   margin-bottom: 10px;
 }
 
-header .shop-cart .item p {
-  color: #797979;
-  font-weight: 600;
+header .shop-cart .item b {
+  font-size: 18px;
 }
 
 header .shop-cart .item .delete-icon {
-  padding-right: 20px;
-  color: #ca5252;
+  font-size: 18px;
+  padding-right: 21px;
   float: right;
   position: relative;
+  bottom: 85px;
   cursor: pointer;
   transition: color, transform 500ms ease;
+  color: rgb(153, 153, 153);
 }
+
 
 header .shop-cart .item .delete-icon:hover {
   color: #d83030;
-  transform: scale(1.5);
+  transform: scale(1.1);
 }
 
 header .shop-cart .total {
-  padding: 15px;
-  float: left;
-  width: 100%;
+  padding: 15px 40px 15px 0;
+  float: right;
   font-weight: 600;
   font-size: 20px;
+}
+
+/* Quantity Input */
+
+.quantity-input {
+  font-family: "Montserrat", sans-serif;
+  width: 40px;
+  font-size: 16px;
+  text-align: center;
+  border: 1px solid rgb(216, 216, 216);
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.quantity-input::-webkit-outer-spin-button,
+.quantity-input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+.quantity-input:focus,
+.quantity-input:hover {
+  outline: none;
+  border: 1px solid rgb(153, 153, 153);
+}
+
+/* Quantity button */
+
+.dect-inc-btn {
+  margin: 10px;
+  font-size: large;
+  border: none;
+  background: transparent;
+  cursor: pointer;
+  color: #5fa36a;
+  text-align: center;
+  position: relative;
+  top: 3px;
+}
+.dect-inc-btn:hover{
+  color: #4e8b58;
+
+}
+
+.control {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 50px 0 20px;
 }
 
 /* Main Page Image */
@@ -214,7 +261,7 @@ header .presentation::before {
 }
 
 .categories div:hover,
-.categories .active{
+.categories .active {
   border-color: silver;
   transform: scale(1.1);
 }

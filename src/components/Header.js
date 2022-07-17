@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { FaShoppingCart } from "react-icons/fa";
-import Cart from "./Cart";
+import Cart from "./Cart/Cart";
 
 export default function Header(props) {
 

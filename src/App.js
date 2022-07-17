@@ -9,6 +9,7 @@ import { itemsList } from "./items-list";
 
 function App() {
   const [orders, setOrders] = useState([]);
+
   const [addingNotif, setAddingNotif] = useState(false);
   const [currentItems, setCurrentItems] = useState(itemsList);
   const [showFullItem, setShowFullItem] = useState(false);
@@ -19,11 +20,17 @@ function App() {
     orders.forEach((el) => {
       if (el.id === item.id) {
         isInArray = true;
+        el.quantity += 1;
+        setAddingNotif(true);
+        setTimeout(() => {
+          setAddingNotif(false);
+        }, 5000);
       }
     });
 
     if (!isInArray) {
-      setOrders([...orders, item]);
+      setOrders([item, ...orders]);
+      item.quantity = 1;
       setAddingNotif(true);
       setTimeout(() => {
         setAddingNotif(false);
